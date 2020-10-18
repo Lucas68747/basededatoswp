@@ -25,7 +25,6 @@ function db_admin_menu_function() {
 
     include('include/table/bd-table.php');
     ;
-
 }
 
 function bd_options_function() {
@@ -45,7 +44,7 @@ function bd_help_function() {
 
     include('include/help/bd-help.php');
     ;
-    
+
 }
 
 ?>
