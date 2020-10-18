@@ -13,11 +13,6 @@
 
 add_action('admin_menu', 'db_admin_menu');
 
-// function db_menu (){
-//     add_menu_page('BD Custom', 'BD Custom', 'manage_options', __FILE__, 'bd_edit');
-
-// }
-
 function db_admin_menu(){
     
     add_menu_page ( 'BD Custom', 'BD Custom', 'manage_options', 'db_admin_menu_plugin', 'db_admin_menu_function', 'dashicons-database', 10 );
