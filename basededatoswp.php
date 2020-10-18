@@ -37,13 +37,11 @@ function bd_options_function() {
     <p> Seccion para setear el plugin </p>
     '
     ;
-
 }
 function bd_settings_function() {
     echo ' 
     <p> Configuracion del plugin</p>    '
     ;
-
 }
 
 ?>
