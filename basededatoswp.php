@@ -22,30 +22,30 @@ function db_admin_menu(){
 }
 
 function db_admin_menu_function() {
-        echo ' 
-        <iframe width="900" height="800" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpIS_pCd6rXJgN_yTMjwF1g_-v_lW8hW6WkIg-zueVmG_m4mLumY01bg7pSmjvV3Xc0C9eYqsG2GrS/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe> 
-        '
-        ;
+
+    include('include/table/bd-table.php');
+    ;
+
 }
 
 function bd_options_function() {
-    echo ' 
-    <p> Sección para setear el plugin. </p>
-    '
+
+    include('include/options/bd-options.php');
     ;
+
 }
 
 function bd_settings_function() {
-    echo ' 
-    <p> Configuración del plugin.</p>    
-    '
+
+    include('include/settings/bd-settings.php');
     ;
+
 }
 function bd_help_function() {
-    echo ' 
-    <p> Sección de ayuda.</p>    
-    '
+
+    include('include/help/bd-help.php');
     ;
+    
 }
 
 ?>
