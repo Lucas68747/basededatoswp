@@ -47,4 +47,5 @@ function bd_help_function() {
     '
     ;
 }
+
 ?>
