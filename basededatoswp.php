@@ -18,8 +18,9 @@ function db_admin_menu(){
     add_menu_page ( 'BD Custom', 'BD Custom', 'manage_options', 'db_admin_menu_plugin', 'db_admin_menu_function', 'dashicons-database', 10 );
     add_submenu_page ( 'db_admin_menu_plugin', 'BD Options', 'Options', 'manage_options', 'bd_options_submenu1' ,'bd_options_function' );
     add_submenu_page ( 'db_admin_menu_plugin', 'BD Settings', 'Settings', 'manage_options', 'bd_options_submenu2', 'bd_settings_function');
-}
+    add_submenu_page ( 'db_admin_menu_plugin', 'BD Help', 'Help', 'manage_options', 'bd_options_submenu3', 'bd_help_function');
 
+}
 
 function db_admin_menu_function() {
         echo ' 
@@ -27,15 +28,24 @@ function db_admin_menu_function() {
         '
         ;
 }
+
 function bd_options_function() {
     echo ' 
-    <p> Seccion para setear el plugin </p>
+    <p> Sección para setear el plugin. </p>
     '
     ;
 }
+
 function bd_settings_function() {
     echo ' 
-    <p> Configuracion del plugin</p>    '
+    <p> Configuración del plugin.</p>    
+    '
+    ;
+}
+function bd_help_function() {
+    echo ' 
+    <p> Sección de ayuda.</p>    
+    '
     ;
 }
 
