@@ -10,7 +10,6 @@
 * License: GPL2
 */
 
-
 add_action('admin_menu', 'db_admin_menu');
 
 function db_admin_menu(){
@@ -48,5 +47,4 @@ function bd_help_function() {
     '
     ;
 }
-
 ?>
